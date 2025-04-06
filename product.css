@@ -635,7 +635,7 @@ footer{
         margin: 20px auto 10px;
     }
 }
-@media only screen and (max-width:450px){
+@media only screen and (max-width:500px){
     .product-main-image img{
         width: 300px;
     }
