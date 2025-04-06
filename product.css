@@ -630,13 +630,49 @@ footer{
     .option{
         padding: 6px 8px;
     }
-    .option p{
-        display: none;
-    }
     .product-d-purchase{
         max-width: 90%;
         margin: 20px auto 10px;
     }
+}
+@media only screen and (max-width:400px){
+    .product-main-image img{
+        width: 300px;
+    }
+    #points ul{
+        width: 300px;
+    }
+    
+    .product-title{
+        font-size: 13px;
+        width: 300px;
+    }
+    .product-variant-selection .variant-options .option{
+        width: 130px;
+        height: 40px;
+        
+    }
+    .product-variant-selection .variant-options .option p{
+        font-size: 12px;
+    }
+    .product-variant-selection .variant-options .option span{
+        font-size: 12px;
+        
+    }
+    .product-summary{
+        width: 300px;
+    }
+    .product-variant-selection{
+        width: 300px;
+    }
+    .product-variant-selection .option span{
+        display: none;
+        
+    }
+    .navFooterVerticalColoumns{
+        margin-bottom: 25px;
+    }
+     
 }
 
 
